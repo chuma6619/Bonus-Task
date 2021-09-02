@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    background-color: #F9FCFC;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+.heading{
+
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    margin-right: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 55px;
+}
+
+.column1{
+    width: 40%;
+}
+
+.column2{
+    width: 60%;
+}
+
+.person_img{
+    position: absolute;
+    width: 422px;
+    height: 496px;
+    left: 92px;
+    top: 196px;
+}
+
+.column2_heading{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 665px;
+    top: 150px;
+    text-align:center ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.hr{
+    position: relative;
+    width: 67.5px;
+    height: 0px;
+    border: 2px solid #D89616;
+    bottom :25px;
+    left: 65px;
+}
+
+.paragraph{
+    position: absolute;
+    width: 510px;
+    height: 168px;
+    left: 550px;
+    top: 305px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contact-container{
+background-color:white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+position: absolute;
+width: 852px;
+height: 657px;
+left:151px;
+top: 789px;
+}
+
+.contact{
+    margin-left:5rem;
+    margin-right: 5rem;
+}
+
+
+.form-row textarea, .form-row .input-box{
+     width: 100%;
+     padding: 10px;
+     border: 1px solid grey;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+
+
+.button button{
+    background: rgba(0, 77, 230, 0.76);
+    border-radius: 8px;
+    padding:8px 50px;
+    border: none;
+    color: white;
+    margin:1rem 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    position: absolute;
+    left: 650px;
+}
+
+input,textarea{
+    margin-top: 15px;
+}
